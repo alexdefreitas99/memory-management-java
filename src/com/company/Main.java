@@ -19,17 +19,35 @@ public class Main {
     }
 
     private static void calculate(int calcValue) {
+        /* The calcValue is a literary copy of the object received by params */
         calcValue *= 100;
         System.out.println("Value calculed: " + calcValue);
     }
 
     private static void setNewCostumer(Customer newCostumer) {
+        // The [newCostumer] is a copy of the pointer to the object on the heap
+
         newCostumer = new Customer(2, "New Costumer");
+
+        /*
+         * When we instantiate a new object to [newCostumer]
+         * the value of [newCostumer] on stack is changed
+         * to a pointer to the a new object on the heap
+         */
+
         System.out.println("Customer new customer: " + newCostumer);
     }
 
     private static void changeCustomerName(Customer customerRenamed) {
+        /*
+        new value on the stack that called customerRenamed
+        that pointer to the object received by param.
+         */
         customerRenamed.setNome("Name renamed");
+        /*
+        When we change the value of [ nome ]
+        we create a new string in heap and pointer to it
+         */
         System.out.println("Customer customer renamed: " + customerRenamed);
     }
 }
