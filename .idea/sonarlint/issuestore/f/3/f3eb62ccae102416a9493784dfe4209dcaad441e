@@ -1,0 +1,5 @@
+
+Asquid:S1148"#Use a logger to log this exception.(Ç’Çê8ŠĞÑä-
+Usquid:UnusedPrivateMethod")Remove this unused private "test" method.(¬ÊµË8ô¯ÔÑä-
+isquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(è®ã¶øÿÿÿÿ8ŠĞÑä-
+†"squid:ClassVariableVisibilityCheck"QMake value a static final constant or non-public and provide accessors if needed.(çªÆà8ŠĞÑä-

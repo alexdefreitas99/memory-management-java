@@ -2,8 +2,9 @@ package com.company;
 
 public class Main {
 
-    public static void main(String[] args) {
+    final static Customer c = new Customer(1, "a");
 
+    public static void main(String[] args) {
         Customer localCustomer = new Customer(1, "Local customer 1");
         Customer localCustomer2 = new Customer(2, "Local customer 2");
 

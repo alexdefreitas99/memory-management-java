@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87b92954-49cd-4058-93f4-c47d06ccf382" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-memory-management-study/com/company/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-memory-management-study/com/company/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-memory-management-study/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-memory-management-study/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="53709442-e37e-44cb-bd41-0647d8ae971e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +18,10 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1TIqEQq4xX3UncozjFO8FsYf0B0" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../alex/MemoryTest" />
-  </component>
+  <component name="ProjectId" id="1TKX7hNfav0DyT1qDrBXdIvbTfy" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -51,7 +37,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="java-memory-management-study" />
+      <module name="memory-tesst" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -70,25 +56,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="87b92954-49cd-4058-93f4-c47d06ccf382" name="Default Changelist" comment="" />
-      <created>1573157844543</created>
+      <changelist id="53709442-e37e-44cb-bd41-0647d8ae971e" name="Default Changelist" comment="" />
+      <created>1573209594119</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573157844543</updated>
+      <updated>1573209594119</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
