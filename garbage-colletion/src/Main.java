@@ -1,29 +1,28 @@
 
 public class Main {
-	public static void main(String args[]) {
-		Main main = new Main();
-		main.stringTest();
-
-	}
-
-	public void stringTest(){
-
-	}
 	
-	public void start() {
-		String last = "Z";
-		Container container = new Container();
-		container.setInitial("C");
-		another(container,last);
-		System.out.print(container.getInitial());
+	public static void main(String[] args) 
+	{
+		Runtime runtime = Runtime.getRuntime();
+
+		long availableBytes = runtime.freeMemory();
+		System.out.println("Available memory: " + availableBytes / 1024 + "k");
+
+		// let's create a ton of garbage....
+		Customer c;
+		for (int i=0; i<1000000; i++)
+		{
+			c = new Customer("John");	
+		}
+		
+		availableBytes = runtime.freeMemory();
+		System.out.println("Available memory: " + availableBytes / 1024 + "k");
+		
+		System.gc();
+		
+		availableBytes = runtime.freeMemory();
+		System.out.println("Available memory: " + availableBytes / 1024 + "k");
 	}
+
 	
-	public void another(Container initialHolder, String newInitial) {
-		newInitial.toLowerCase();
-		initialHolder.setInitial("B");
-		Container initial2 = new Container();
-		initialHolder = initial2;
-		System.out.print(initialHolder.getInitial());
-		System.out.print(newInitial);
-	}
 }
